@@ -37,7 +37,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 Run the script:
 ```bash
-python main.py
+python Agent1.py
 ```
 
 The agent will process the default query about the 2022 FIFA World Cup winner. You can modify the input in the script to ask different questions.
@@ -62,7 +62,7 @@ print(response['output'])
 
 ```
 .
-├── main.py              # Main application file
+├── Agent1.py              # Main application file
 ├── .env                 # Environment variables (create this)
 ├── README.md           # This file
 └── requirements.txt    # Dependencies (optional)
